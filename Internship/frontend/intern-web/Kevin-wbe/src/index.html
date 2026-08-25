@@ -1,0 +1,797 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Home page</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+</head>
+<body>
+  <header>
+    <button class="burger" aria-label="Open menu" >
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <div class="logo">
+      <a href=""><img src="img/Logo.png" alt="Logo"></a>
+    <nav class="nav-links">
+      <a href="#">Shop</a>
+      <a href="#">About Almased</a>
+      <a href="#">Science</a>
+      <a href="#">Results</a>
+      <a href="#">Health Goals</a>
+      <a href="#">How to Use</a>
+      <a href="#">Learn</a>
+    </nav>
+    <div class="icons">
+      <a href="#">
+        <img src="img/MagnifyingGlass.svg" alt="Search Icon" width="21" height="21">
+      </a>
+      <a href="#">
+        <img src="img/User.svg" alt="User Icon" width="25" height="25">
+      </a>
+      <a href="#">
+        <img src="img/ShoppingCartSimple.svg" alt="Shopping Cart Icon" width="25" height="25">
+      </a>
+    </div>
+  </header>
+  <div class="hero-banner">
+    <div class="hero-content">
+      <div class="hero-row">
+        <div class="hero-title-col">
+          <h1>Natural Superfood Protein</h1>
+          <p>for optimal health</p>
+          <button class="cta-button">
+            Start Almased today
+            <svg style="vertical-align: middle; margin-left: 10px;" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#222" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="5" y1="12" x2="19" y2="12"/>
+              <polyline points="12 5 19 12 12 19"/>
+            </svg>
+          </button>
+        </div>
+        <div class="hero-features">
+          <div class="feature">
+            <h2>24g</h2>
+            <p>protein</p>
+          </div>
+          <div class="feature">
+            <h2>80</h2>
+            <p>peptides</p>
+          </div>
+          <div class="feature">
+            <h2>20</h2>
+            <p>amino acids</p>
+          </div>
+          <div class="feature">
+            <h2>22</h2>
+            <p>vitamins</p>
+          </div>
+        </div>
+      </div>
+      <div class="hero-pagination">
+        <span class="hero-bar active"></span>
+        <span class="hero-bar"></span>
+        <span class="hero-bar"></span>
+      </div>
+    </div>
+    <button class="hero-pause-btn" aria-label="Pause hero carousel">
+  &#10073;&#10073; <!-- Pause icon -->
+</button>
+  </div>
+  <section class="almased-tabs">
+    <div class="tab-list" role="tablist">
+      <button class="tab active" role="tab" aria-selected="true" data-title="Daily Nutrition Meal">
+        <span class="tab-plus">+</span>
+        <span class="tab-label">Daily Nutrition Meal</span>
+      </button>
+      <button class="tab" role="tab" data-title="Weight Loss">
+        <span class="tab-plus">+</span>
+        <span class="tab-label">Weight Loss</span>
+      </button>
+      <button class="tab" role="tab" data-title="Muscle Preservation">
+        <span class="tab-plus">+</span>
+        <span class="tab-label">Muscle Preservation</span>
+      </button>
+      <button class="tab" role="tab" data-title="Muscle Gain">
+        <span class="tab-plus">+</span>
+        <span class="tab-label">Muscle Gain</span>
+      </button>
+      <button class="tab" role="tab" data-title="All Health Goals">
+        <span class="tab-plus">+</span>
+        <span class="tab-label">All Health Goals</span>
+      </button>
+    </div>
+    <div class="tab-panel active" role="tabpanel">
+    <div class="tab-content">
+      <div class="tab-text">
+        <h6>Get Started with your Almased Welcome Pack</h6>
+        <p>Lorem ipsum dolor sit amet consectetur. Et aenean auctor pharetra risus vel vestibulum vel. Sed pellentesque nibh arcu risus eget massa.</p>
+        <button class="tab-cta-button">SHOP NOW</button>
+      </div>
+      <div class="tab-image">
+        <img src="img/tab-photo.png" alt="Almased Welcome Pack" />
+      </div>
+    </div>
+  </div>
+  <div class="tab-panel" role="tabpanel">
+    <div class="tab-content">
+      <div class="tab-text">
+        <h6>Weight Loss</h6>
+        <p>Lorem ipsum dolor sit amet consectetur. Et aenean auctor pharetra risus vel vestibulum vel. Sed pellentesque nibh arcu risus eget massa.</p>
+        <button class="tab-cta-button">SHOP NOW</button>
+      </div>
+      <div class="tab-image">
+        <img src="img/tab-photo.png" alt="Weight Loss" />
+      </div>
+    </div>
+  </div>
+  <div class="tab-panel" role="tabpanel">
+    <div class="tab-content">
+      <div class="tab-text">
+        <h6>Muscle Preservation</h6>
+        <p>Lorem ipsum dolor sit amet consectetur. Et aenean auctor pharetra risus vel vestibulum vel. Sed pellentesque nibh arcu risus eget massa.</p>
+        <button class="tab-cta-button">SHOP NOW</button>
+      </div>
+      <div class="tab-image">
+        <img src="img/tab-photo.png" alt="Muscle Preservation" />
+      </div>
+    </div>
+  </div>
+  <div class="tab-panel" role="tabpanel">
+    <div class="tab-content">
+      <div class="tab-text">
+        <h6>Muscle Gain</h6>
+        <p>Lorem ipsum dolor sit amet consectetur. Et aenean auctor pharetra risus vel vestibulum vel. Sed pellentesque nibh arcu risus eget massa.</p>
+        <button class="tab-cta-button">SHOP NOW</button>
+      </div>
+      <div class="tab-image">
+        <img src="img/tab-photo.png" alt="Muscle Gain" />
+      </div>
+    </div>
+  </div>
+  <div class="tab-panel" role="tabpanel">
+    <div class="tab-content">
+      <div class="tab-text">
+        <h6>All Health Goals</h6>
+        <p>Lorem ipsum dolor sit amet consectetur. Et aenean auctor pharetra risus vel vestibulum vel. Sed pellentesque nibh arcu risus eget massa.</p>
+        <button class="tab-cta-button">SHOP NOW</button>
+      </div>
+      <div class="tab-image">
+        <img src="img/tab-photo.png" alt="All Health Goals" />
+      </div>
+    </div>
+  </section>
+  <section class="feature-icons-grid">
+    <div class="feature-icon-item">
+      <img src="img/1st.jpg" alt="Liver Detox Icon" width="90" height="87" />
+      <h3>Liver detox, Metabolism<br>&amp; Weight Management</h3>
+      <p class="feature-icon-desc">
+        (Heart health, Cut appetite,<br>
+        Diabetes/Glp1)
+      </p>
+    </div>
+    <div class="feature-icon-item">
+      <img src="img/2nd.jpg" alt="Beauty & Youth Icon" width="85" height="86" />
+      <h3>Beauty<br>&amp; Youth</h3>
+      <p class="feature-icon-desc">
+        Renewal of cells of Skin, Hair,<br>
+        Nails (Collagen production),<br>
+        HGH, biological age
+      </p>
+    </div>
+    <div class="feature-icon-item">
+      <img src="img/3rd.jpg" alt="Muscle, Strength & Endurance Icon" width="88" height="98" />
+      <h3>Muscle, Strength &amp;<br>Endurance.</h3>
+      <p class="feature-icon-desc">
+        Workout performance
+      </p>
+    </div>
+    <div class="feature-icon-item">
+      <img src="img/4th.jpg" alt="Quick Nutritious meal shake Icon" width="94" height="80" />
+      <h3>Quick Nutritious<br>meal shake</h3>
+      <p class="feature-icon-desc">
+        Boost energy, mental and<br>
+        physical performance for<br>
+        Busy lifestyles
+      </p>
+    </div>
+  </section>
+  <section class="testimonial-slider">
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <div class="testimonial-content">
+          <div class="testimonial-text-col">
+            <div class="testimonial-quote">
+              <span class="quote-mark">“</span>
+              <h2 class="testimonial-title">The energy I started to have was unbelievable.</h2>
+              <span class="quote-mark end">”</span>
+            </div>
+            <div class="testimonial-author">— Stephanie S.</div>
+            <button class="testimonial-btn">LEARN STEPHANIE’S STORY</button>
+            <div class="testimonial-arrows">
+              <span class="arrow-prev">&larr;</span>
+              <span class="arrow-next">&rarr;</span>
+            </div>
+          </div>
+          <div class="testimonial-image-col">
+            <img src="img/swiper.jpg" alt="Testimonial" />
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="testimonial-content">
+          <div class="testimonial-text-col">
+            <div class="testimonial-quote">
+              <span class="quote-mark">“</span>
+              <h2 class="testimonial-title">The energy I started to have was unbelievable.</h2>
+              <span class="quote-mark end">”</span>
+            </div>
+            <div class="testimonial-author">— Alex P.</div>
+            <button class="testimonial-btn">LEARN ALEX’S STORY</button>
+            <div class="testimonial-arrows">
+              <span class="arrow-prev">&larr;</span>
+              <span class="arrow-next">&rarr;</span>
+            </div>
+          </div>
+          <div class="testimonial-image-col">
+            <img src="img/swiper.jpg" alt="Testimonial" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+</section>
+<section class="daily-benefits-section">
+  <h2 class="daily-benefits-title">Discover our daily health benefits</h2>
+  <div class="daily-benefits-cards">
+    <div class="benefit-card">
+      <div class="benefit-image">
+        <img src="img/active_travel.jpg" alt="Weight Loss" />
+        <span class="benefit-plus">+</span>
+      </div>
+      <div class="benefit-info">
+        <h3 class="benefit-title">Weight Loss</h3>
+        <p class="benefit-desc">
+          Scientifically proven natural weight loss. Detoxes your liver from fat so your whole metabolism works better.
+        </p>
+      </div>
+    </div>
+    <div class="benefit-card">
+      <div class="benefit-image">
+        <img src="img/woman-size.jpg" alt="GLP-1 Support" />
+        <span class="benefit-plus">+</span>
+      </div>
+      <div class="benefit-info">
+        <h3 class="benefit-title">GLP-1 Support</h3>
+        <p class="benefit-desc">
+          Scientifically proven to retain 100% muscle mass while losing weight.
+        </p>
+      </div>
+    </div>
+    <div class="benefit-card">
+      <div class="benefit-image">
+        <img src="img/upon-1.jpg" alt="Anti-aging (Skin, hair)" />
+        <span class="benefit-plus">+</span>
+      </div>
+      <div class="benefit-info">
+        <h3 class="benefit-title">Anti-aging (Skin, hair)</h3>
+        <p class="benefit-desc">
+          Use Almased for life to reduce biological age. Feel and look younger with glowing skin and healthy hair.
+        </p>
+      </div>
+    </div>
+    
+    <div class="benefit-card">
+      <div class="benefit-image">
+        <img src="img/tenis1.jpg" alt="Sports Energy" />
+        <span class="benefit-plus">+</span>
+      </div>
+      <div class="benefit-info">
+        <h3 class="benefit-title">Sports Energy</h3>
+        <p class="benefit-desc">
+          Almased helps you perform better and gives you lasting energy to power through your day.
+        </p>
+      </div>
+    </div>
+    <div class="benefit-card">
+  <div class="benefit-image">
+    <img src="img/tenis1.jpg" alt="Sports Energy" />
+    <span class="benefit-plus">+</span>
+  </div>
+  <div class="benefit-info">
+    <h3 class="benefit-title">Sports Energy</h3>
+    <p class="benefit-desc">
+      Almased helps you perform better and gives you lasting energy to power through your day.
+    </p>
+  </div>
+</div>
+  </div>
+  <div class="benefits-pagination">
+    <span class="benefits-bar active"></span>
+    <span class="benefits-bar"></span>
+    <span class="benefits-bar"></span>
+    <span class="benefits-bar"></span>
+    <span class="benefits-bar"></span>
+  </div>
+  <div class="benefits-arrows">
+    <button class="benefit-arrow prev" aria-label="Previous">&#8592;</button>
+    <button class="benefit-arrow next" aria-label="Next">&#8594;</button>
+  </div>
+</section>
+<section class="almased-stats-section">
+  <h2 class="almased-stats-title">The Global Leader in Metabolic Health</h2>
+  <div class="almased-stats-circles">
+    <div class="almased-stat-circle">
+      <div class="stat-value">100%</div>
+      <div class="stat-desc">muscle mass<br>preservation</div>
+    </div>
+    <div class="almased-stat-circle">
+      <div class="stat-value">113%</div>
+      <div class="stat-desc">more weight loss<br>than a low-fat diet</div>
+    </div>
+    <div class="almased-stat-circle">
+      <div class="stat-value">86%</d  iv>
+      <div class="stat-desc">more fat loss</div>
+    </div>
+    </div>
+      <div class="almased-stat-circle">
+      <div class="stat-value">258%</div>
+      <div class="stat-desc">more waist<br>reduction</div>
+    </div>
+  </div>
+  <div class="almased-stats-subtext">
+    No other protein compares to Almased. From balanced blood sugar to a better metabolism, Almased has been shown in peer-reviewed studies to have numerous health benefits.
+  </div>
+  <button class="almased-stats-btn">
+    See our research studies
+    <span style="margin-left:8px;">&#8594;</span>
+  </button>
+</section>
+
+<section class="doctor-testimonial-section">
+  <div class="doctor-testimonial-header">
+    <p class="doctor-testimonial-proven">Proven Results from 32 University backed Studies on Almased</p>
+    <img class="doctor-testimonial-unis" src="img/sc1.jpg" alt="Universities Logos" />
+  </div>
+  <div class="doctor-testimonial-slider">
+    <div class="doctor-testimonial-cards">
+      <div class="doctor-testimonial-card active">
+        <div class="doctor-testimonial-image">
+          <img src="img/dr1.jpg" alt="Doctor 1" />
+          <button class="doctor-arrow doctor-arrow-prev" aria-label="Previous" style="position: absolute; left: 32px; bottom: 32px;">&#8592;</button>
+        </div>
+        <div class="doctor-testimonial-quote-block">
+          <div class="doctor-quote">
+            <span class="doctor-quote-mark">“</span>
+            <span class="doctor-quote-text">
+              If you are on GLP-1s, its important to supplement with Almased so you maintain muscle while still both losing weight and losing fat.
+            </span>
+            <span class="doctor-quote-mark end">”</span>
+          </div>
+          <div class="doctor-signature">
+            <img src="img/signature1.jpg" alt="Doctor Signature" />
+          </div>
+          <div class="doctor-signature-row">
+            <div class="doctor-names">
+              <a href="#" class="doctor-link">Dr Eric J Rosenbaum</a>
+              <span class="doctor-name">Dr Aloys Berg</span>
+            </div>
+            <button class="doctor-arrow doctor-arrow-next" aria-label="Next">&#8594;</button>
+          </div>
+        </div>
+      </div>
+      <div class="doctor-testimonial-card">
+        <div class="doctor-testimonial-image">
+          <img src="img/dr1.jpg" alt="Doctor 2" />
+          <button class="doctor-arrow doctor-arrow-prev" aria-label="Previous" style="position: absolute; left: 32px; bottom: 32px;">&#8592;</button>
+        </div>
+        <div class="doctor-testimonial-quote-block">
+          <div class="doctor-quote">
+            <span class="doctor-quote-mark">“</span>
+            <span class="doctor-quote-text">
+              If you are on GLP-1s, its important to supplement with Almased so you maintain muscle while still both losing weight and losing fat.
+            </span>
+            <span class="doctor-quote-mark end">”</span>
+          </div>
+          <div class="doctor-signature">
+            <img src="img/signature1.jpg" alt="Doctor Signature" />
+          </div>
+          <div class="doctor-signature-row">
+            <div class="doctor-names">
+              <a href="#" class="doctor-link">Dr Aloys Berg</a>
+              <span class="doctor-name">Dr Eric J Rosenbaum</span>
+            </div>
+            <button class="doctor-arrow doctor-arrow-next" aria-label="Next">&#8594;</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="recipe-section">
+  <h2 class="recipe-title">
+    Taste the Difference: Three Delicious Weight Loss Shake Recipes using Almased Protein Powder
+  </h2>
+  <div class="recipe-cards-row">
+    <div class="recipe-card">
+      <div class="recipe-card-img-wrap">
+        <img src="img/recipe1.png" alt="Weight Loss Shake Recipe: Mango Matcha Magic" class="recipe-card-img" />
+        <span class="recipe-plus">
+          <svg width="36" height="36" viewBox="0 0 51 51" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <ellipse cx="25.3965" cy="25.3965" rx="25.3965" ry="25.3965" fill="#55AB26"/>
+            <line x1="26.9367" y1="10.9824" x2="26.9367" y2="40.2685" stroke="white" stroke-width="2.6"/>
+            <line x1="10.9822" y1="24.3147" x2="40.2682" y2="24.3148" stroke="white" stroke-width="2.6"/>
+          </svg>
+        </span>
+      </div>
+      <div class="recipe-card-caption">
+        Weight Loss Shake Recipe:<br>Mango Matcha Magic
+      </div>
+    </div>
+    <div class="recipe-card">
+      <div class="recipe-card-img-wrap">
+        <img src="img/recipe2.png" alt="Muscle Building Shake Recipe: Yogurt-Blueberry" class="recipe-card-img" />
+        <span class="recipe-plus">
+          <svg width="36" height="36" viewBox="0 0 51 51" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <ellipse cx="25.3965" cy="25.3965" rx="25.3965" ry="25.3965" fill="#55AB26"/>
+            <line x1="26.9367" y1="10.9824" x2="26.9367" y2="40.2685" stroke="white" stroke-width="2.6"/>
+            <line x1="10.9822" y1="24.3147" x2="40.2682" y2="24.3148" stroke="white" stroke-width="2.6"/>
+          </svg>
+        </span>
+      </div>
+      <div class="recipe-card-caption">
+        Muscle Building Shake<br>Recipe: Yogurt-Blueberry
+      </div>
+    </div>
+    <div class="recipe-card">
+      <div class="recipe-card-img-wrap">
+        <img src="img/recipe3.png" alt="Weight Loss Shake Recipe: Almased Iced Coffee Latte" class="recipe-card-img" />
+        <span class="recipe-plus">
+          <svg width="36" height="36" viewBox="0 0 51 51" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <ellipse cx="25.3965" cy="25.3965" rx="25.3965" ry="25.3965" fill="#55AB26"/>
+            <line x1="26.9367" y1="10.9824" x2="26.9367" y2="40.2685" stroke="white" stroke-width="2.6"/>
+            <line x1="10.9822" y1="24.3147" x2="40.2682" y2="24.3148" stroke="white" stroke-width="2.6"/>
+          </svg>
+        </span>
+      </div>
+      <div class="recipe-card-caption">
+        Weight Loss Shake Recipe:<br>Almased Iced Coffee Latte
+      </div>
+    </div>
+  </div>
+</section>
+<section class="available-section">
+  <div class="available-at-label">Also Available at</div>
+  <div class="available-logos-row">
+    <img src="img/comp1.jpg" alt="CVS Pharmacy" class="available-logo" />
+    <img src="img/Amazon_logo 1.jpg" alt="Amazon" class="available-logo" />
+    <img src="img/comp3.jpg" alt="Vitacost" class="available-logo" />
+    <img src="img/comp4.png" alt="Walgreens" class="available-logo" />
+    <img src="img/comp5.jpg" alt="Instacart" class="available-logo" />
+    <img src="img/comp6.jpg" alt="Swanson" class="available-logo" />
+  </div>
+  <button class="store-locator-btn">STORE LOCATOR</button>
+  <section class="awards-row-image">
+  <img src="img/allcomp.png" alt="Awards and recognitions" style="width:100%;max-width:950px;display:block;margin:32px auto 0 auto;">
+</section>
+</section>
+<section class="newsletter-signup-section">
+  <div class="newsletter-signup-inner">
+    <div class="newsletter-signup-content">
+      <div class="newsletter-signup-title">Newsletter</div>
+      <div class="newsletter-signup-headline">
+        Discover Hidden Secrets about Weight Loss and Giveaways!
+      </div>
+      <form class="newsletter-signup-form">
+        <input type="email" placeholder="Email Address*" required>
+        <button type="submit">SIGN UP</button>
+      </form>
+    </div>
+  </div>
+</section>
+<footer class="footer-section">
+  <div class="footer-inner">
+    <div class="footer-logo">
+      <div class="footer-logo">
+
+  <svg width="187" height="99" viewBox="0 0 187 99" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M183.99 2.55228C184.568 2.55228 184.684 2.43626 184.684 2.08823C184.684 1.8562 184.568 1.74019 184.105 1.74019H183.99V2.55228ZM183.295 1.16013H184.337C185.147 1.16013 185.494 1.39215 185.494 2.08823C185.494 2.55228 185.263 2.7843 184.915 2.90031L185.725 4.29246H184.915L184.221 2.90031H183.99V4.29246H183.295V1.16013ZM182.138 2.7843C182.138 3.94443 183.064 4.98854 184.221 4.98854C185.378 4.98854 186.304 4.06044 186.304 2.7843C186.304 1.62418 185.378 0.696075 184.221 0.696075C183.064 0.580063 182.138 1.62418 182.138 2.7843ZM186.998 2.7843C186.998 4.29246 185.725 5.5686 184.221 5.5686C182.717 5.5686 181.444 4.29246 181.444 2.7843C181.444 1.27614 182.717 0 184.221 0C185.725 0 186.998 1.27614 186.998 2.7843Z" fill="white"/>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M125.902 45.4767C125.902 48.145 124.976 50.5813 123.125 52.5535C121.273 54.6417 118.611 56.2659 115.14 57.426C113.983 57.774 110.627 58.7021 105.882 59.9783V52.4375L108.66 51.5094C108.775 55.3378 110.164 56.6139 114.214 55.3378C116.991 54.4097 118.611 52.4375 118.611 50.6973C118.611 49.4211 117.801 48.7251 115.487 48.8411C112.71 48.8411 111.09 48.9571 109.817 48.7251C106.924 48.261 105.767 46.5208 105.767 43.2725C105.767 38.2839 109.007 34.4555 115.14 32.3673C115.719 32.1353 118.843 31.4392 123.125 30.3951V36.8918L121.042 37.5879C120.926 35.3836 120.463 34.5715 119.537 34.2235C118.611 33.8755 117.339 34.2235 115.834 34.6876C114.677 35.0356 113.867 35.6157 113.404 36.3117C112.826 37.0078 112.594 37.7039 112.594 38.4C112.594 39.212 113.057 40.1401 114.677 40.2562C115.603 40.3722 116.876 40.2562 118.264 40.1401C123.472 39.7921 125.902 40.7202 125.902 45.4767ZM80.3087 68.4472L71.9769 71.1155C71.9769 71.1155 72.0926 66.359 72.0926 62.6466V56.1499C72.0926 52.5535 71.1669 51.1613 69.084 51.6254C67.2325 52.0894 65.4967 54.1777 65.4967 58.7021V65.5469C65.4967 68.9112 65.7281 73.2037 65.7281 73.2037L57.3964 75.872C57.3964 75.872 57.5121 70.7674 57.5121 67.4031V60.6744C57.5121 56.962 56.3549 55.8018 54.5034 56.2659C52.3048 56.7299 50.9161 59.5142 50.9161 63.4587V70.3034C50.9161 73.5517 51.0319 77.9602 51.0319 77.9602L42.8159 80.6285C42.8159 80.6285 42.9316 76.104 42.9316 72.1596V64.0387C42.9316 62.6466 42.8159 58.5861 42.8159 58.5861V56.6139C45.1302 55.8018 47.7917 54.7577 51.0319 53.5976V56.2659C52.8834 53.7136 55.3134 51.8574 58.2064 50.9293C60.9837 50.0012 63.5295 50.4653 64.8024 52.6695C67.001 49.3051 69.6626 47.2169 72.7869 46.1728C76.6057 44.8967 78.5729 46.4048 79.2672 47.5649C80.0772 48.7251 80.0772 50.5813 80.0772 53.0175V53.8296V60.7904C80.1929 63.9227 80.3087 68.4472 80.3087 68.4472ZM38.9971 82.0207L30.434 84.805C30.434 84.805 30.6654 79.9324 30.6654 76.336V56.1499C30.6654 53.7136 30.5497 48.7251 30.5497 48.7251C30.5497 48.7251 36.5671 46.5208 38.8814 45.5927V74.3638C38.7657 77.6122 38.9971 82.0207 38.9971 82.0207ZM103.337 44.6646V61.0224L97.7822 62.9946C96.5092 63.4587 95.8149 62.8786 95.8149 61.1384C94.542 63.4587 92.3434 65.0828 89.4504 66.0109C87.3675 66.707 85.8631 66.591 84.706 65.7789C83.0859 64.7348 82.7387 62.9946 82.7387 61.0224C82.7387 57.31 84.2431 54.9897 87.7146 52.7855C92.922 49.4211 95.6992 47.913 95.6992 43.6205C95.6992 42.1124 94.7735 41.5323 93.6163 41.7643C92.5748 41.9963 92.1119 42.5764 91.6491 43.1565C91.3019 43.8525 90.9548 44.7806 90.7233 45.9408C90.4919 46.7529 90.3762 47.4489 90.029 48.029C89.5661 49.0731 88.6404 49.8852 87.5989 50.1172C85.7474 50.5813 84.3588 49.6532 84.3588 47.4489C84.3588 44.2006 87.2518 41.5323 92.922 39.6761C96.0464 38.632 99.4022 37.9359 101.369 38.864C102.642 39.5601 103.337 40.8362 103.337 44.6646ZM95.5835 49.7692C93.8477 51.1613 92.5748 52.3215 91.7648 53.4816C90.839 54.8737 90.4919 56.6139 90.4919 58.8182C90.4919 61.2544 91.6491 61.9505 93.1534 61.4864C94.542 61.0224 95.5835 59.0502 95.5835 54.7577V49.7692ZM150.666 30.8591C150.666 31.6712 150.666 32.4833 150.55 33.4114V33.6434L136.548 38.1679V38.516C136.548 41.8803 136.895 44.2006 137.821 45.4767C138.399 46.2888 139.672 46.8689 141.177 46.4048C143.491 45.5927 145.227 43.6205 145.921 40.7202C146.152 39.7921 146.268 39.096 146.384 38.516C146.5 38.0519 146.847 37.9359 147.31 37.7039C147.657 37.5879 148.583 37.2398 149.045 37.2398C149.508 37.2398 149.74 37.3558 149.855 37.7039C149.971 37.9359 149.971 38.2839 149.971 38.864C149.971 40.9522 149.045 43.0405 147.425 45.0127C145.69 46.8689 143.26 48.6091 140.019 49.6532C135.854 51.0453 132.845 51.0453 130.762 49.7692C128.795 48.493 127.406 45.9408 127.406 40.9522C127.406 32.4833 131.341 27.2628 139.557 24.5945C143.144 23.4343 145.921 23.2023 147.657 24.1304C149.971 25.1745 150.666 27.4948 150.666 30.8591ZM142.334 27.6108C141.871 26.9147 141.177 26.7987 140.135 27.1467C139.557 27.3788 138.978 27.6108 138.631 28.0748C138.168 28.5389 137.821 29.119 137.589 29.815C137.126 31.0912 136.779 32.9474 136.664 35.3836L142.912 33.2954C142.912 32.7153 142.912 32.1353 142.912 31.6712C142.912 29.583 142.681 28.1909 142.334 27.6108ZM28.2353 85.501L19.7879 88.1693L16.8949 79.4684L6.94311 82.7167L4.05015 93.2739L0 94.666C0 94.666 2.89296 86.5451 3.81871 83.6448L9.83607 64.3868C10.5304 62.0665 11.2247 59.8623 11.6876 57.658L18.7464 55.3378C19.5564 58.4701 21.2922 64.2707 23.028 70.1874C24.8795 75.988 26.8467 81.9046 28.2353 85.501ZM12.2662 64.1547L7.98458 79.5844L16.2006 76.9161L12.2662 64.1547ZM177.628 37.0078L177.396 37.1238C177.396 37.1238 171.726 39.096 169.065 40.1401V37.0078C167.56 39.5601 165.246 41.4163 162.006 42.4604C156.799 44.2006 152.517 41.7643 152.517 33.4114C152.517 24.7105 155.757 19.2579 162.006 17.2857C164.899 16.3576 167.213 16.3576 169.065 17.6337V11.137C169.065 7.19259 168.949 3.5962 168.949 3.5962C168.949 3.5962 174.619 1.50798 177.512 0.463867C177.512 0.463867 177.396 3.5962 177.396 6.84455V29.467C177.396 32.2513 177.628 37.0078 177.628 37.0078ZM166.519 19.1419C165.015 19.2579 163.626 20.7661 162.816 22.7383C162.006 24.5945 161.659 27.2628 161.659 30.5111C161.659 37.3558 163.857 37.7039 165.246 37.4719C167.098 37.1238 169.412 34.6876 169.412 25.7546C169.296 20.07 168.255 19.0259 166.519 19.1419Z" fill="white"/>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M0.690063 98.6119H178.549C178.897 98.6119 179.244 98.2639 179.244 97.9158V40.1416L0.690063 98.6119Z" fill="white"/>
+  </svg>
+</div>
+    </div>
+    <div class="footer-columns">
+      <div class="footer-col">
+        <div class="footer-heading">Shop Products</div>
+        <div class="footer-link">Why it works</div>
+        <div class="footer-link">How to use</div>
+        <div class="footer-link">Life-Changing Results</div>
+      </div>
+      <div class="footer-col">
+        <div class="footer-heading">Blog</div>
+        <div class="footer-link">All Blogs</div>
+        <div class="footer-link">Almased 101</div>
+        <div class="footer-link">Weight Loss</div>
+        <div class="footer-link">Metabolism</div>
+        <div class="footer-link">Diabetes</div>
+        <div class="footer-link">Meal Recipes</div>
+        <div class="footer-link">Muscle Building Shake Recipes</div>
+        <div class="footer-link">Weight Loss Shake Recipes</div>
+        <div class="footer-link">Diabetic-Friendly Shake Recipes</div>
+      </div>
+      <div class="footer-col">
+        <div class="footer-heading">Resources</div>
+        <div class="footer-link">FAQ</div>
+        <div class="footer-link">Type Test</div>
+        <div class="footer-link">BMI calculator</div>
+        <div class="footer-link">Almased Lexicon</div>
+        <div class="footer-link">Community</div>
+        <div class="footer-link">Newsletter</div>
+      </div>
+      <div class="footer-col">
+        <div class="footer-heading">About us</div>
+        <div class="footer-link">Our Story</div>
+        <div class="footer-link">Our Vision</div>
+        <div class="footer-link">Research</div>
+        <div class="footer-link">Our Team</div>
+        <div class="footer-link">Press</div>
+      </div>
+    </div>
+  </div>
+</footer>
+  <script>
+document.querySelector('.burger').addEventListener('click', function() {
+  this.classList.toggle('open');
+  document.querySelector('.nav-links').classList.toggle('open');
+});
+
+const heroBanner = document.querySelector('.hero-banner');
+const heroBars = document.querySelectorAll('.hero-bar');
+const heroImages = [
+  'url("css/banner.jpg")',
+  'url("img/banner4.jpg")',
+  'url("img/banner2.jpg")'
+];
+let heroIndex = 0;
+let heroInterval;
+const pauseBtn = document.querySelector('.hero-pause-btn');
+let isPaused = false;
+
+function updateHeroBanner() {
+  heroBanner.style.backgroundImage = heroImages[heroIndex];
+  heroBars.forEach((bar, idx) => {
+    bar.classList.toggle('active', idx === heroIndex);
+  });
+}
+
+function nextHero() {
+  heroIndex = (heroIndex + 1) % heroImages.length;
+  updateHeroBanner();
+}
+
+function goToHero(idx) {
+  heroIndex = idx;
+  updateHeroBanner();
+  resetHeroInterval();
+}
+
+function resetHeroInterval() {
+  clearInterval(heroInterval);
+  if (!isPaused) {
+    heroInterval = setInterval(nextHero, 3000);
+  }
+}
+
+heroBars.forEach((bar, idx) => {
+  bar.style.cursor = "pointer";
+  bar.addEventListener('click', () => goToHero(idx));
+});
+
+pauseBtn.addEventListener('click', () => {
+  isPaused = !isPaused;
+  if (isPaused) {
+    clearInterval(heroInterval);
+    pauseBtn.innerHTML = '&#9658;';
+    pauseBtn.setAttribute('aria-label', 'Play hero carousel');
+  } else {
+    heroInterval = setInterval(nextHero, 3000);
+    pauseBtn.innerHTML = '&#10073;&#10073;';
+    pauseBtn.setAttribute('aria-label', 'Pause hero carousel');
+  }
+});
+
+updateHeroBanner();
+resetHeroInterval();
+
+
+const tabs = document.querySelectorAll('.tab-list .tab');
+const tabPanels = document.querySelectorAll('.tab-panel');
+
+tabs.forEach((tab, idx) => {
+  tab.addEventListener('click', function() {
+    tabs.forEach(t => {
+      t.classList.remove('active');
+      t.setAttribute('aria-selected', 'false');
+    });
+    tabPanels.forEach(panel => panel.classList.remove('active'));
+    this.classList.add('active');
+    this.setAttribute('aria-selected', 'true');
+    tabPanels[idx].classList.add('active');
+  });
+});
+
+
+const cardsContainer = document.querySelector('.daily-benefits-cards');
+const prevBtn = document.querySelector('.benefit-arrow.prev');
+const nextBtn = document.querySelector('.benefit-arrow.next');
+const bars = document.querySelectorAll('.benefits-bar');
+
+
+let cardsInner = cardsContainer.querySelector('.daily-benefits-cards-inner');
+if (!cardsInner) {
+  cardsInner = document.createElement('div');
+  cardsInner.className = 'daily-benefits-cards-inner';
+  while (
+    cardsContainer.firstChild &&
+    !cardsContainer.firstChild.classList?.contains('benefits-pagination') &&
+    !cardsContainer.firstChild.classList?.contains('benefits-arrows')
+  ) {
+    cardsInner.appendChild(cardsContainer.firstChild);
+  }
+  cardsContainer.insertBefore(cardsInner, cardsContainer.querySelector('.benefits-pagination'));
+}
+
+const gap = 14; 
+let currentIndex = 0;
+let activeBarIndex = 0;
+
+function getBenefitCards() {
+  return Array.from(cardsInner.querySelectorAll('.benefit-card'));
+}
+
+function getCardWidth() {
+  const cards = getBenefitCards();
+  return cards[0] ? cards[0].offsetWidth : 350;
+}
+
+function getVisibleCards() {
+  if (window.innerWidth <= 600) return 1;
+  if (window.innerWidth <= 900) return 2;
+  if (window.innerWidth <= 1024) return 3;
+  return 4;
+}
+
+function updateSlider(transition = true) {
+  const cardWidth = getCardWidth();
+  if (transition) {
+    cardsInner.style.transition = 'transform 0.5s cubic-bezier(.77,0,.18,1)';
+  } else {
+    cardsInner.style.transition = 'none';
+  }
+  const translateX = -(currentIndex * (cardWidth + gap));
+  cardsInner.style.transform = `translateX(${translateX}px)`;
+  updatePagination();
+}
+
+function updatePagination() {
+  bars.forEach((bar, idx) => {
+    bar.classList.toggle('active', idx === activeBarIndex);
+  });
+}
+
+nextBtn.addEventListener('click', () => {
+  const visible = getVisibleCards();
+  const cardWidth = getCardWidth();
+  const cards = getBenefitCards();
+  const totalCards = cards.length;
+  const maxIndex = Math.max(0, totalCards - visible);
+
+  if (currentIndex < maxIndex) {
+    currentIndex++;
+    activeBarIndex = (activeBarIndex + 1) % bars.length;
+    updateSlider(true);
+  } else {
+    cardsInner.style.transition = 'transform 0.5s cubic-bezier(.77,0,.18,1)';
+    cardsInner.style.transform = `translateX(-${(currentIndex + 1) * (cardWidth + gap)}px)`;
+    setTimeout(() => {
+      cardsInner.appendChild(cardsInner.firstElementChild);
+      cardsInner.style.transition = 'none';
+      cardsInner.style.transform = `translateX(-${(currentIndex) * (cardWidth + gap)}px)`;
+    }, 500);
+    activeBarIndex = (activeBarIndex + 1) % bars.length;
+  }
+  updatePagination();
+});
+
+prevBtn.addEventListener('click', () => {
+  const visible = getVisibleCards();
+  const cardWidth = getCardWidth();
+  const cards = getBenefitCards();
+  const totalCards = cards.length;
+  const maxIndex = Math.max(0, totalCards - visible);
+
+  if (currentIndex > 0) {
+    currentIndex--;
+    activeBarIndex = (activeBarIndex - 1 + bars.length) % bars.length;
+    updateSlider(true);
+  } else {
+
+    cardsInner.style.transition = 'none';
+    cardsInner.insertBefore(cardsInner.lastElementChild, cardsInner.firstElementChild);
+    cardsInner.style.transform = `translateX(-${(1) * (cardWidth + gap)}px)`;
+    void cardsInner.offsetWidth;
+    cardsInner.style.transition = 'transform 0.5s cubic-bezier(.77,0,.18,1)';
+    cardsInner.style.transform = `translateX(0px)`;
+    activeBarIndex = (activeBarIndex - 1 + bars.length) % bars.length;
+  }
+  updatePagination();
+});
+
+window.addEventListener('resize', () => {
+  updateSlider(false);
+});
+
+updateSlider(false);
+(function () {
+  const docCards = document.querySelectorAll('.doctor-testimonial-card');
+  const cardsContainer = document.querySelector('.doctor-testimonial-cards');
+  let current = 0;
+
+  function showCard(idx) {
+    docCards.forEach((card, i) => {
+      card.classList.toggle('active', i === idx);
+    });
+  }
+  cardsContainer.addEventListener('click', function (e) {
+    if (e.target.classList.contains('doctor-arrow-next')) {
+      current = (current + 1) % docCards.length;
+      showCard(current);
+    }
+    if (e.target.classList.contains('doctor-arrow-prev')) {
+      current = (current - 1 + docCards.length) % docCards.length;
+      showCard(current);
+    }
+  });
+
+  showCard(current);
+})();
+
+var swiper = new Swiper('.mySwiper', {
+  loop: true,
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+  navigation: {
+    nextEl: '.arrow-next',
+    prevEl: '.arrow-prev',
+  },
+});
+</script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script>
+  var swiper = new Swiper('.mySwiper', {
+    loop: true,
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+    navigation: {
+      nextEl: '.arrow-next',
+      prevEl: '.arrow-prev',
+    },
+  });
+</script>
+</body>
+</html>
